@@ -1,3 +1,4 @@
+node_modules/
 node_modules
 dist
 build
@@ -8,8 +9,13 @@ coverage
 .turbo
 .DS_Store
 *.log
+node.exe
+*.exe
 pnpm-lock.yaml
 package-lock.json
 yarn.lock
 frontend/.vite
+mern/client/dist/
 backend/prisma/dev.db
+.cache/
+Thumbs.db

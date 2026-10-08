@@ -8,7 +8,10 @@
   ],
   "scripts": {
     "dev": "npm run dev --workspace backend & npm run dev --workspace frontend",
+    "dev:mern:server": "npm --prefix mern/server run dev",
+    "dev:mern:client": "npm --prefix mern/client run dev",
     "build": "npm run build --workspace backend && npm run build --workspace frontend",
+    "build:mern": "npm --prefix mern/client run build",
     "test": "npm run test --workspace backend && npm run test --workspace frontend",
     "lint": "npm run lint --workspace backend && npm run lint --workspace frontend"
   }
